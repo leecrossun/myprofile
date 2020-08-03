@@ -1,0 +1,66 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+.main_title {
+    font-size: 5em;
+}
+.sub_title {
+    font-size: 2em;
+}
+.contents a {
+    display: block;
+    margin: 10px;
+}
+.content_title {
+    width: 100%;
+    font-size: 2em;
+    text-align: left;
+    color: rgb(36, 36, 36);
+    margin: 0px auto;
+    padding: 0.2em;
+    display: block;
+}
+.left {
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.right {
+    width: 60%;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(172, 172, 172);
+    vertical-align: top;
+    margin: 10px;
+}
+.header {
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    color: white;
+    padding: 4em;
+}
+.article {
+    margin: 1em auto;
+    width: auto;
+}
+.list {
+    font-size: 20px;
+    width: fit-content;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    padding: 10px;
+}
+.bottom {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.left, .right, .bottom {
+    box-shadow: rgb(36, 36, 36) 5px 5px;
+}
